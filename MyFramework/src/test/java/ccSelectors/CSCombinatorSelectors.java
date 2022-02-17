@@ -11,6 +11,7 @@ public class CSCombinatorSelectors extends Base {
 
 		initializeWebdriver();
 		implicitWaitInSeconds(5);
+		
 		driver.get("https://www.hyrtutorials.com/p/css-selectors-practice.html");
 		// Descendanat selectors = Clild+grand childs
 		System.out.println(driver.findElements(By.cssSelector(".container select")).size());
