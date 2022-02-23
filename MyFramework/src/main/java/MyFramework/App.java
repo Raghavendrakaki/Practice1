@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class App extends Base {
 	LoginPage loginPage;
 
-	@Test(dataProvider = "myData")
+	//@Test(dataProvider = "myData")
 	public void test(String usernam, String password) throws IOException {
 		System.out.println("Hello World!");
 
@@ -26,7 +26,7 @@ public class App extends Base {
 
 	}
 
-	@DataProvider
+	//@DataProvider
 	public Object[][] myData() {
 
 		Object[][] data = new Object[2][2];
