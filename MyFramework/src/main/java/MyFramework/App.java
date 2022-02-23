@@ -2,8 +2,8 @@ package MyFramework;
 
 import java.io.IOException;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+//import org.testng.annotations.DataProvider;
+//import org.testng.annotations.Test;
 
 /**
  * Hello world!
